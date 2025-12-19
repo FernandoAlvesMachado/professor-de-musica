@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adney Andrade | Aulas de Música em Mogi das Cruzes</title>
-    <meta name="description"
-        content="Aulas de Violão, Contrabaixo e Ukulele com o Professor Adney Andrade. Presencial em Mogi das Cruzes e Online para todo o Brasil.">
-
+    <meta name="description" content="Aulas de Violão, Contrabaixo e Ukulele com o Professor Adney Andrade. Presencial em Mogi das Cruzes e Online para todo o Brasil.">
+    
     <!-- Tailwind CSS (via CDN para arquivo único) -->
     <script src="https://cdn.tailwindcss.com"></script>
-
+    
     <!-- Font Awesome para ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- Configurações de Cores e Estilos Personalizados -->
     <script>
@@ -50,13 +46,8 @@
             background-color: #0a0a0a;
             color: #ffffff;
         }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
+        
+        h1, h2, h3, h4, h5, h6 {
             font-family: 'Montserrat', sans-serif;
         }
 
@@ -77,7 +68,7 @@
             border-radius: 50px;
             text-align: center;
             font-size: 30px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
             z-index: 100;
             display: flex;
             align-items: center;
@@ -95,19 +86,16 @@
         .service-card {
             transition: transform 0.3s ease, border-color 0.3s ease;
         }
-
         .service-card:hover {
             transform: translateY(-5px);
             border-color: #FFD700;
         }
     </style>
 </head>
-
 <body class="antialiased">
 
     <!-- NAVIGATION -->
-    <nav class="fixed w-full z-50 bg-brand-black/95 backdrop-blur-sm border-b border-gray-800 transition-all duration-300"
-        id="navbar">
+    <nav class="fixed w-full z-50 bg-brand-black/95 backdrop-blur-sm border-b border-gray-800 transition-all duration-300" id="navbar">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <!-- Logo -->
             <a href="#" class="text-2xl font-bold font-display uppercase tracking-wider text-white">
@@ -119,9 +107,7 @@
                 <a href="#home" class="text-white hover:text-brand-yellow transition font-semibold">Início</a>
                 <a href="#sobre" class="text-white hover:text-brand-yellow transition font-semibold">Sobre</a>
                 <a href="#servicos" class="text-white hover:text-brand-yellow transition font-semibold">Aulas</a>
-                <a href="#contato"
-                    class="px-5 py-2 bg-brand-yellow text-brand-black font-bold rounded hover:bg-brand-yellowHover transition">Agendar
-                    Aula</a>
+                <a href="#contato" class="px-5 py-2 bg-brand-yellow text-brand-black font-bold rounded hover:bg-brand-yellowHover transition">Agendar Aula</a>
             </div>
 
             <!-- Menu Mobile Button -->
@@ -145,8 +131,9 @@
     <section id="home" class="relative h-screen min-h-[600px] flex items-center justify-center pt-20 overflow-hidden">
         <!-- Background Image com Overlay -->
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?q=80&w=2070&auto=format&fit=crop"
-                alt="Músico tocando violão" class="w-full h-full object-cover opacity-30">
+            <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?q=80&w=2070&auto=format&fit=crop" 
+                 alt="Músico tocando violão" 
+                 class="w-full h-full object-cover opacity-30">
             <div class="absolute inset-0 bg-gradient-to-b from-brand-black/80 via-brand-black/60 to-brand-black"></div>
         </div>
 
@@ -159,16 +146,14 @@
                 <span class="text-brand-yellow">Baixo</span> e <span class="text-brand-yellow">Ukulele</span>
             </h1>
             <p class="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10">
-                Aulas particulares personalizadas em Mogi das Cruzes e Online.
+                Aulas particulares personalizadas em Mogi das Cruzes e Online. 
                 Do iniciante ao avançado, aprenda a tocar as músicas que você ama com técnica e musicalidade.
             </p>
             <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="#contato"
-                    class="px-8 py-4 bg-brand-yellow text-brand-black font-bold text-lg rounded shadow-lg hover:bg-brand-yellowHover hover:scale-105 transition transform">
+                <a href="#contato" class="px-8 py-4 bg-brand-yellow text-brand-black font-bold text-lg rounded shadow-lg hover:bg-brand-yellowHover hover:scale-105 transition transform">
                     Quero começar agora
                 </a>
-                <a href="#sobre"
-                    class="px-8 py-4 border-2 border-white text-white font-bold text-lg rounded hover:bg-white hover:text-brand-black transition">
+                <a href="#sobre" class="px-8 py-4 border-2 border-white text-white font-bold text-lg rounded hover:bg-white hover:text-brand-black transition">
                     Conheça o Professor
                 </a>
             </div>
@@ -181,29 +166,24 @@
             <div class="flex flex-col lg:flex-row items-center gap-12">
                 <!-- Imagem -->
                 <div class="w-full lg:w-1/2 relative">
-                    <div
-                        class="absolute -top-4 -left-4 w-full h-full border-4 border-brand-yellow rounded-lg hidden md:block">
-                    </div>
-                    <img src="sobre.jpg" alt="Professor Adney Andrade"
-                        class="relative rounded-lg shadow-2xl w-full object-cover h-[900px] grayscale hover:grayscale-0 transition duration-500">
+                    <div class="absolute -top-4 -left-4 w-full h-full border-4 border-brand-yellow rounded-lg hidden md:block"></div>
+                    <img src="https://images.unsplash.com/photo-1549834125-82f3471c262c?q=80&w=1000&auto=format&fit=crop" 
+                         alt="Professor Adney Andrade" 
+                         class="relative rounded-lg shadow-2xl w-full object-cover h-[500px] grayscale hover:grayscale-0 transition duration-500">
                     <!-- Nota: Usei uma imagem genérica de alta qualidade. Substitua por uma foto real do Adney. -->
                 </div>
-
+                
                 <!-- Texto -->
                 <div class="w-full lg:w-1/2">
                     <h2 class="text-brand-yellow font-bold text-lg uppercase mb-2">Sobre Mim</h2>
                     <h3 class="text-4xl font-extrabold mb-6 text-brand-black">Quem é Adney Andrade?</h3>
                     <p class="text-gray-700 mb-6 leading-relaxed">
-                        Sou músico com vasta experiência e professor apaixonado por ensinar. Atuo como facilitador
-                        musical, oferecendo aulas de <strong>Violão, Contrabaixo e Ukulele</strong> para alunos de todas
-                        as idades.
+                        Sou músico com vasta experiência e professor apaixonado por ensinar. Atuo como facilitador musical, oferecendo aulas de <strong>Violão, Contrabaixo e Ukulele</strong> para alunos de todas as idades.
                     </p>
                     <p class="text-gray-700 mb-6 leading-relaxed">
-                        Minha metodologia é prática e direta. Não importa se você quer tocar em rodinhas de amigos, na
-                        igreja ou profissionalmente, adapto o conteúdo ao seu gosto musical (Rock, Pop, MPB, Samba,
-                        Reggae) sem deixar de lado a teoria necessária para sua evolução.
+                        Minha metodologia é prática e direta. Não importa se você quer tocar em rodinhas de amigos, na igreja ou profissionalmente, adapto o conteúdo ao seu gosto musical (Rock, Pop, MPB, Samba, Reggae) sem deixar de lado a teoria necessária para sua evolução.
                     </p>
-
+                    
                     <ul class="space-y-4 mb-8">
                         <li class="flex items-center">
                             <i class="fas fa-check-circle text-brand-yellow text-xl mr-3"></i>
@@ -245,36 +225,30 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-
+                
                 <!-- Card Violão -->
                 <div class="service-card bg-brand-gray p-8 rounded-xl border border-gray-800 text-center group">
-                    <div
-                        class="w-20 h-20 bg-brand-black rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-yellow transition duration-300">
+                    <div class="w-20 h-20 bg-brand-black rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-yellow transition duration-300">
                         <i class="fas fa-guitar text-3xl text-brand-yellow group-hover:text-brand-black"></i>
                     </div>
                     <h4 class="text-xl font-bold text-white mb-4">Aulas de Violão</h4>
                     <p class="text-gray-400 mb-6">
-                        Domine acordes, ritmos, dedilhados e harmonia. Do violão popular ao erudito, aprenda a tocar
-                        suas músicas favoritas com confiança.
+                        Domine acordes, ritmos, dedilhados e harmonia. Do violão popular ao erudito, aprenda a tocar suas músicas favoritas com confiança.
                     </p>
                     <ul class="text-left text-gray-400 text-sm space-y-2 mb-6 ml-4">
-                        <li><i class="fas fa-play text-xs text-brand-yellow mr-2"></i> Leitura de Cifras e Tablaturas
-                        </li>
-                        <li><i class="fas fa-play text-xs text-brand-yellow mr-2"></i> Técnicas de Mão Direita e
-                            Esquerda</li>
+                        <li><i class="fas fa-play text-xs text-brand-yellow mr-2"></i> Leitura de Cifras e Tablaturas</li>
+                        <li><i class="fas fa-play text-xs text-brand-yellow mr-2"></i> Técnicas de Mão Direita e Esquerda</li>
                     </ul>
                 </div>
 
                 <!-- Card Baixo -->
                 <div class="service-card bg-brand-gray p-8 rounded-xl border border-gray-800 text-center group">
-                    <div
-                        class="w-20 h-20 bg-brand-black rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-yellow transition duration-300">
+                    <div class="w-20 h-20 bg-brand-black rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-yellow transition duration-300">
                         <i class="fas fa-music text-3xl text-brand-yellow group-hover:text-brand-black"></i>
                     </div>
                     <h4 class="text-xl font-bold text-white mb-4">Aulas de Contrabaixo</h4>
                     <p class="text-gray-400 mb-6">
-                        Entenda o groove! Aprenda escalas, slap, pizzicato e como ser o pilar da banda. Foco em ritmo e
-                        percepção musical.
+                        Entenda o groove! Aprenda escalas, slap, pizzicato e como ser o pilar da banda. Foco em ritmo e percepção musical.
                     </p>
                     <ul class="text-left text-gray-400 text-sm space-y-2 mb-6 ml-4">
                         <li><i class="fas fa-play text-xs text-brand-yellow mr-2"></i> Criação de Linhas de Baixo</li>
@@ -284,14 +258,12 @@
 
                 <!-- Card Ukulele -->
                 <div class="service-card bg-brand-gray p-8 rounded-xl border border-gray-800 text-center group">
-                    <div
-                        class="w-20 h-20 bg-brand-black rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-yellow transition duration-300">
+                    <div class="w-20 h-20 bg-brand-black rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-yellow transition duration-300">
                         <i class="fas fa-star text-3xl text-brand-yellow group-hover:text-brand-black"></i>
                     </div>
                     <h4 class="text-xl font-bold text-white mb-4">Aulas de Ukulele</h4>
                     <p class="text-gray-400 mb-6">
-                        O instrumento perfeito para começar. Prático, divertido e versátil. Aprenda levadas contagiantes
-                        e repertório variado rapidamente.
+                        O instrumento perfeito para começar. Prático, divertido e versátil. Aprenda levadas contagiantes e repertório variado rapidamente.
                     </p>
                     <ul class="text-left text-gray-400 text-sm space-y-2 mb-6 ml-4">
                         <li><i class="fas fa-play text-xs text-brand-yellow mr-2"></i> Levadas de Reggae e Pop</li>
@@ -316,8 +288,7 @@
                             </div>
                             <div>
                                 <h4 class="text-xl font-bold">Presencial em Mogi das Cruzes</h4>
-                                <p class="text-black/80">Aulas no estúdio ou em domicílio (sob consulta). Ambiente
-                                    preparado para o seu aprendizado.</p>
+                                <p class="text-black/80">Aulas no estúdio ou em domicílio (sob consulta). Ambiente preparado para o seu aprendizado.</p>
                             </div>
                         </div>
                         <div class="flex items-start">
@@ -326,16 +297,13 @@
                             </div>
                             <div>
                                 <h4 class="text-xl font-bold">Aulas 100% Online</h4>
-                                <p class="text-black/80">Ao vivo via Google Meet ou Zoom. Qualidade de áudio e vídeo
-                                    para aprender de qualquer lugar do Brasil.</p>
+                                <p class="text-black/80">Ao vivo via Google Meet ou Zoom. Qualidade de áudio e vídeo para aprender de qualquer lugar do Brasil.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="hidden md:block">
-                    <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?q=80&w=2070&auto=format&fit=crop"
-                        alt="Estúdio de música"
-                        class="rounded-xl shadow-2xl border-4 border-black transform rotate-2 hover:rotate-0 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?q=80&w=2070&auto=format&fit=crop" alt="Estúdio de música" class="rounded-xl shadow-2xl border-4 border-black transform rotate-2 hover:rotate-0 transition duration-500">
                 </div>
             </div>
         </div>
@@ -350,12 +318,9 @@
         <div class="container mx-auto px-6 text-center relative z-10">
             <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6">Pronto para tocar sua primeira música?</h2>
             <p class="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
-                Não deixe para depois. Agende uma aula experimental e descubra como a música pode transformar sua vida.
-                Vagas limitadas!
+                Não deixe para depois. Agende uma aula experimental e descubra como a música pode transformar sua vida. Vagas limitadas!
             </p>
-            <a href="https://wa.me/5511999039320?text=Olá,%20Professor%20Adney!%20Gostaria%20de%20saber%20mais%20sobre%20as%20aulas."
-                target="_blank"
-                class="inline-flex items-center justify-center px-10 py-5 bg-transparent border-2 border-brand-yellow text-brand-yellow font-bold text-xl rounded-full hover:bg-brand-yellow hover:text-brand-black transition duration-300">
+            <a href="https://wa.me/5511947825223?text=Olá,%20Professor%20Adney!%20Gostaria%20de%20saber%20mais%20sobre%20as%20aulas." target="_blank" class="inline-flex items-center justify-center px-10 py-5 bg-transparent border-2 border-brand-yellow text-brand-yellow font-bold text-xl rounded-full hover:bg-brand-yellow hover:text-brand-black transition duration-300">
                 <i class="fab fa-whatsapp mr-2"></i> Agendar Aula Agora
             </a>
         </div>
@@ -370,36 +335,32 @@
             </div>
 
             <div class="flex flex-col lg:flex-row gap-12 max-w-6xl mx-auto">
-
+                
                 <!-- Informações -->
                 <div class="w-full lg:w-1/3 space-y-8">
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-brand-yellow">
                         <h4 class="text-xl font-bold text-brand-black mb-2">Localização</h4>
                         <p class="text-gray-600">Mogi das Cruzes, SP<br>Atendimento presencial e online</p>
                     </div>
-
+                    
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-brand-black">
                         <h4 class="text-xl font-bold text-brand-black mb-2">Contato Direto</h4>
                         <p class="text-gray-600 mb-2">Tem dúvidas sobre valores ou horários?</p>
-                        <a href="https://wa.me/5511999039320"
-                            class="text-brand-black font-bold hover:text-brand-yellowHover transition">
-                            <i class="fab fa-whatsapp mr-2"></i> (11) 99903-9320
+                        <a href="https://wa.me/5511947825223" class="text-brand-black font-bold hover:text-brand-yellowHover transition">
+                            <i class="fab fa-whatsapp mr-2"></i> (11) 94782-5223
                         </a>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-brand-yellow">
                         <h4 class="text-xl font-bold text-brand-black mb-2">Redes Sociais</h4>
                         <div class="flex space-x-4 mt-2">
-                            <a href="https://www.instagram.com/adney_andrade" target="_blank"
-                                class="w-10 h-10 bg-brand-black text-white rounded-full flex items-center justify-center hover:bg-brand-yellow hover:text-brand-black transition">
+                            <a href="https://www.instagram.com/adney_andrade" target="_blank" class="w-10 h-10 bg-brand-black text-white rounded-full flex items-center justify-center hover:bg-brand-yellow hover:text-brand-black transition">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a href="#"
-                                class="w-10 h-10 bg-brand-black text-white rounded-full flex items-center justify-center hover:bg-brand-yellow hover:text-brand-black transition">
+                            <a href="#" class="w-10 h-10 bg-brand-black text-white rounded-full flex items-center justify-center hover:bg-brand-yellow hover:text-brand-black transition">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="#"
-                                class="w-10 h-10 bg-brand-black text-white rounded-full flex items-center justify-center hover:bg-brand-yellow hover:text-brand-black transition">
+                            <a href="#" class="w-10 h-10 bg-brand-black text-white rounded-full flex items-center justify-center hover:bg-brand-yellow hover:text-brand-black transition">
                                 <i class="fab fa-youtube"></i>
                             </a>
                         </div>
@@ -412,22 +373,17 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
                                 <label class="block text-sm font-bold text-gray-700 mb-2">Seu Nome</label>
-                                <input id="nameInput" type="text" placeholder="João da Silva"
-                                    class="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-yellow focus:ring-0 focus:outline-none transition text-brand-black"
-                                    required>
+                                <input id="nameInput" type="text" placeholder="João da Silva" class="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-yellow focus:ring-0 focus:outline-none transition text-brand-black" required>
                             </div>
                             <div>
                                 <label class="block text-sm font-bold text-gray-700 mb-2">Seu WhatsApp</label>
-                                <input id="phoneInput" type="tel" placeholder="(11) 99999-9999"
-                                    class="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-yellow focus:ring-0 focus:outline-none transition text-brand-black"
-                                    required>
+                                <input id="phoneInput" type="tel" placeholder="(11) 99999-9999" class="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-yellow focus:ring-0 focus:outline-none transition text-brand-black" required>
                             </div>
                         </div>
-
+                        
                         <div>
                             <label class="block text-sm font-bold text-gray-700 mb-2">Interesse</label>
-                            <select id="interestInput"
-                                class="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-yellow focus:ring-0 focus:outline-none transition text-brand-black">
+                            <select id="interestInput" class="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-yellow focus:ring-0 focus:outline-none transition text-brand-black">
                                 <option>Aula de Violão</option>
                                 <option>Aula de Contrabaixo</option>
                                 <option>Aula de Ukulele</option>
@@ -437,13 +393,10 @@
 
                         <div>
                             <label class="block text-sm font-bold text-gray-700 mb-2">Mensagem</label>
-                            <textarea id="messageInput" rows="4"
-                                placeholder="Conte um pouco sobre seus objetivos musicais..."
-                                class="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-yellow focus:ring-0 focus:outline-none transition text-brand-black"></textarea>
+                            <textarea id="messageInput" rows="4" placeholder="Conte um pouco sobre seus objetivos musicais..." class="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-brand-yellow focus:ring-0 focus:outline-none transition text-brand-black"></textarea>
                         </div>
 
-                        <button type="submit"
-                            class="w-full py-4 bg-brand-black text-white font-bold rounded-lg hover:bg-brand-yellow hover:text-brand-black transition duration-300 shadow-lg flex justify-center items-center">
+                        <button type="submit" class="w-full py-4 bg-brand-black text-white font-bold rounded-lg hover:bg-brand-yellow hover:text-brand-black transition duration-300 shadow-lg flex justify-center items-center">
                             ENVIAR NO WHATSAPP <i class="fab fa-whatsapp ml-2 text-xl"></i>
                         </button>
                     </form>
@@ -456,8 +409,7 @@
     <footer class="bg-black text-white py-10 border-t border-gray-900">
         <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
             <div class="mb-4 md:mb-0">
-                <span class="text-2xl font-bold font-display uppercase">Adney <span
-                        class="text-brand-yellow">Andrade</span></span>
+                <span class="text-2xl font-bold font-display uppercase">Adney <span class="text-brand-yellow">Andrade</span></span>
                 <p class="text-gray-500 text-sm mt-2">© 2025 Todos os direitos reservados.</p>
             </div>
             <div class="flex space-x-6 text-sm text-gray-400">
@@ -470,7 +422,7 @@
     </footer>
 
     <!-- BOTÃO WHATSAPP FLUTUANTE -->
-    <a href="https://wa.me/5511999039320" class="whatsapp-float" target="_blank" title="Fale pelo WhatsApp">
+    <a href="https://wa.me/5511947825223" class="whatsapp-float" target="_blank" title="Fale pelo WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -504,9 +456,9 @@
         });
 
         // Lógica do Formulário para WhatsApp
-        document.getElementById('contactForm').addEventListener('submit', function (e) {
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
-
+            
             const name = document.getElementById('nameInput').value;
             const phone = document.getElementById('phoneInput').value;
             const interest = document.getElementById('interestInput').value;
@@ -514,14 +466,14 @@
 
             // Formata a mensagem para URL (usando %0A para quebra de linha)
             const text = `*Olá Adney! Vim pelo site.*%0A%0A` +
-                `*Nome:* ${name}%0A` +
-                `*Whatsapp:* ${phone}%0A` +
-                `*Interesse:* ${interest}%0A` +
-                `*Mensagem:* ${message}`;
+                         `*Nome:* ${name}%0A` +
+                         `*Whatsapp:* ${phone}%0A` +
+                         `*Interesse:* ${interest}%0A` +
+                         `*Mensagem:* ${message}`;
 
             // Número do WhatsApp (MANTENHA O 55 ANTES DO DDD)
             // IMPORTANTE: Substitua pelo número real
-            const whatsappNumber = "5511999039320";
+            const whatsappNumber = "5511947825223"; 
 
             // Cria o link e abre em nova aba
             const url = `https://wa.me/${whatsappNumber}?text=${text}`;
@@ -529,5 +481,4 @@
         });
     </script>
 </body>
-
 </html>
